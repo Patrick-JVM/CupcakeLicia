@@ -9,6 +9,7 @@
   name="description"
   content="Web site created using create-react-app"
   />
+
   
   <style>
     .dark-mode{
@@ -21,20 +22,25 @@
     }
   </style>
 
+  
+  <script>
+
+    document.onkeypress = function(e){
+      e = e || window.event
+      
+      if(e.keyCode === 13){
+        document.documentElement.classList.toggle("dark-mode")
+      }
+    }
+  </script>
+
   <title>DSMovie</title>
 </head>
 <body>
   <noscript>Você precisa habilitar o JavaScript para este app.</noscript>
   <div id="root"></div>
   
-  <script>
-    document.onkeypress = function(e){
-      e = e || window.event
-      
-      if(e.keyCode=== 13){
-        document.documentElement.classList.toggle("dark-mode")
-      }
-    }
-  </script>
+  
+ 
 </body>
 </html>
