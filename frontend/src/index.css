@@ -17,9 +17,3 @@ a, a:hover {
   text-decoration: none;
   color: unset;
 }
-
-.form-check-input {
-  color: #e20b0b;
-  display: flex;
-  margin-top: 30px;
-}
