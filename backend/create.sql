@@ -27,14 +27,6 @@ INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Doce Sabor', 'ht
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Segredinho', 'https://images.pexels.com/photos/6822806/pexels-photo-6822806.jpeg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Baby', 'https://images.pexels.com/photos/4459659/pexels-photo-4459659.jpeg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Rosa Liciosa, 'https://images.pexels.com/photos/8874017/pexels-photo-8874017.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'Cupcacke US 2', 'https://images.pexels.com/photos/4676446/pexels-photo-4676446.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (3.3, 3, 'ChocoLicia 2', 'https://images.pexels.com/photos/10635624/pexels-photo-10635624.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Desejo de Noiva 2', 'https://images.pexels.com/photos/8625934/pexels-photo-8625934.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Chocolate com Uva 2', 'https://images.pexels.com/photos/7816720/pexels-photo-7816720.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Mamãe Tatuada 2', 'https://images.pexels.com/photos/7474204/pexels-photo-7474204.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Doce desejo 2', 'https://images.pexels.com/photos/635409/pexels-photo-635409.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Pequeno Romance 2', 'https://images.pexels.com/photos/112392/pexels-photo-112392.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Grande Amor 2', 'https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg');
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 1, 5.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 2, 4.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (2, 1, 3.0);
