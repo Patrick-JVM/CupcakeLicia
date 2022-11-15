@@ -6,7 +6,7 @@ function Navbar() {
         <header>
             <nav className="container">
                 <div className="dsmovie-nav-content">
-                    <h1>QUAL SEU CUPCAKELICIA FAVORITO ?</h1>
+                    <h1>Qual seu Cupcakelicia Favorito ?</h1>
                 </div>
             </nav>
         </header>
