@@ -28,7 +28,7 @@ INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Mi Corazion', 'h
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Espirito Natalino', 'https://images.pexels.com/photos/6033664/pexels-photo-6033664.jpeg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Hoho-hoho', 'https://images.pexels.com/photos/6210789/pexels-photo-6210789.jpeg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Árvore de Natal', 'https://images.pexels.com/photos/10319189/pexels-photo-10319189.jpeg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'CupCake Árvores', 'https://img.freepik.com/free-photo/christmas-tree-cupcakes-wooden-table_123827-19803.jpg?size=626&ext=jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Cupcake Árvores', 'https://img.freepik.com/free-photo/christmas-tree-cupcakes-wooden-table_123827-19803.jpg?size=626&ext=jpg');
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 1, 5.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 2, 4.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (2, 1, 3.0);
