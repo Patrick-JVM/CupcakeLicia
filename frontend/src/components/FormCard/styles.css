@@ -39,6 +39,13 @@
     
 }
 
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
+}
+
 .dsmovie-card-bottom-container h3 {
     color: #4A4A4A;
     text-align: center;

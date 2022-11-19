@@ -57,8 +57,8 @@ function FormCard( { movieId } : Props) {
                 <h3>{movie?.title}</h3>
                 <form className="dsmovie-form" onSubmit={handleSubmit}>
                     <div className="form-group dsmovie-form-group">
-                        <label htmlFor="email">Informe seu email</label>
-                        <input type="email" className="form-control" id="email" />
+                        <label htmlFor="email">* Informe seu email:</label>
+                        <input type="email" className="form-control" id="email" required/>
                     </div>
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
